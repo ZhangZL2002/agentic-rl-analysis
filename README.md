@@ -29,6 +29,34 @@
 ### 横向对比
 - [四篇工作对比分析](deep-dive/00-comparison-summary.md) - 系统性对比、互补性分析、实践建议
 
+## 📚 研究框架与核心挑战
+
+### 系统性研究框架
+- [RESEARCH_FRAMEWORK.md](RESEARCH_FRAMEWORK.md) - Agentic RL十大研究方向
+  - RLHF for Agents
+  - Environment Design
+  - Reward Design
+  - Policy Optimization
+  - Exploration strategies
+  - Credit assignment
+  - Meta-learning
+  - Safety and Robustness
+  - Scalability
+  - Evaluation benchmarks
+
+### 核心技术挑战
+- [CHALLENGES_AND_TECHNIQUES.md](CHALLENGES_AND_TECHNIQUES.md) - 10大技术挑战与解决方案
+  - 长程信用分配
+  - 稀疏奖励问题
+  - 样本效率
+  - 结构化动作空间
+  - Sim-to-real迁移
+  - 多轮一致性
+  - 安全性与鲁棒性
+  - 探索与利用权衡
+  - 新工具泛化
+  - 评估基准
+
 ## 📁 仓库结构
 
 ```
@@ -44,6 +72,8 @@ agentic-rl-analysis/
 ├── related-work/       # 相关工作调研
 │   ├── github-research.md    # GitHub仓库调研
 │   └── additional-papers.md  # 其他重要工作
+├── RESEARCH_FRAMEWORK.md     # 研究框架
+├── CHALLENGES_AND_TECHNIQUES.md # 核心挑战
 ├── assets/             # 图片、图表等资源
 ├── README.md           # 本文件
 └── LICENSE             # 许可证
